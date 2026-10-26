@@ -1,6 +1,6 @@
 # Shockradar daily completed-window evaluation
 
-USGS fetched 2026-10-25 05:30:17 UTC · Catalog SHA256: `no-completed-windows`
+USGS fetched 2026-10-26 00:03:32 UTC · Catalog SHA256: `no-completed-windows`
 
 Full-world, 2,592-cell Poisson count NLL using three **disjoint** magnitude bins [4.5,5), [5,6), [6,+inf). One forecast issue is scored once per completed horizon.
 
