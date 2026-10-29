@@ -1,45 +1,45 @@
 {
-  "updated_utc": "2026-10-28T00:48:49.641060+00:00",
-  "latest_forecast": "2026-10-28",
-  "completed_windows": 2,
-  "catalog_sha256": "33ce7a38feaaf889974d018893fee8e5369f422cf9f0a9e1ee6283acc1dc50be",
+  "updated_utc": "2026-10-29T00:41:56.884042+00:00",
+  "latest_forecast": "2026-10-29",
+  "completed_windows": 3,
+  "catalog_sha256": "cfa9742cbacc10cedba56cb3b0839098712a469e303122ad18848f9d3f307847",
   "cumulative": {
     "1d": {
-      "issues": 2,
-      "nll_per_issue": 75.14688992744229,
+      "issues": 3,
+      "nll_per_issue": 74.62215667387535,
       "thresholds": {
         "M4.5+": {
-          "positive_cells": 29,
-          "top5_hits": 25,
-          "top5_recall": 0.8620689655172413,
-          "brier": 0.004542242612968933,
-          "accuracy": 0.9834104938271605,
-          "precision": 0.18681318681318682,
-          "recall": 0.5862068965517241,
-          "specificity": 0.9856450048496606,
-          "balanced_accuracy": 0.7859259507006924
+          "positive_cells": 46,
+          "top5_hits": 40,
+          "top5_recall": 0.8695652173913043,
+          "brier": 0.004705155317332461,
+          "accuracy": 0.9835390946502057,
+          "precision": 0.2028985507246377,
+          "recall": 0.6086956521739131,
+          "specificity": 0.9857697283311773,
+          "balanced_accuracy": 0.7972326902525452
         },
         "M5+": {
-          "positive_cells": 9,
-          "top5_hits": 9,
+          "positive_cells": 16,
+          "top5_hits": 16,
           "top5_recall": 1.0,
-          "brier": 0.0013195086472998772,
-          "accuracy": 0.9963348765432098,
-          "precision": 0.14285714285714285,
-          "recall": 0.2222222222222222,
-          "specificity": 0.9976811594202899,
-          "balanced_accuracy": 0.6099516908212561
+          "brier": 0.0015873186193893177,
+          "accuracy": 0.9965277777777778,
+          "precision": 0.21052631578947367,
+          "recall": 0.25,
+          "specificity": 0.9980670103092784,
+          "balanced_accuracy": 0.6240335051546392
         },
         "M6+": {
           "positive_cells": 2,
           "top5_hits": 2,
           "top5_recall": 1.0,
-          "brier": 0.00030962759069731017,
-          "accuracy": 0.9996141975308642,
+          "brier": 0.00020754452565826566,
+          "accuracy": 0.9997427983539094,
           "precision": 0.5,
           "recall": 0.5,
-          "specificity": 0.9998070243149363,
-          "balanced_accuracy": 0.7499035121574682
+          "specificity": 0.9998713660921019,
+          "balanced_accuracy": 0.749935683046051
         }
       }
     },
@@ -49,27 +49,27 @@
     {
       "issue": "2026-10-25",
       "horizon": "1d",
-      "nll": 88.25329321092583,
-      "event_count": 26,
+      "nll": 92.29129808228588,
+      "event_count": 27,
       "prepublication_events": 1,
-      "cells_with_events": 14,
+      "cells_with_events": 15,
       "thresholds": {
         "M4.5+": {
-          "positive_cells": 14,
+          "positive_cells": 15,
           "top5_hits": 13,
-          "top5_recall": 0.9285714285714286,
-          "brier": 0.004676095764046976,
-          "binary_logloss": 0.017394832348792758,
+          "top5_recall": 0.8666666666666667,
+          "brier": 0.005045150600246793,
+          "binary_logloss": 0.01886407301268188,
           "flagged_cells": 45,
           "true_positive": 7,
           "false_positive": 38,
-          "true_negative": 2540,
-          "false_negative": 7,
-          "accuracy": 0.9826388888888888,
+          "true_negative": 2539,
+          "false_negative": 8,
+          "accuracy": 0.9822530864197531,
           "precision": 0.15555555555555556,
-          "recall": 0.5,
-          "specificity": 0.9852598913886734,
-          "balanced_accuracy": 0.7426299456943367
+          "recall": 0.4666666666666667,
+          "specificity": 0.9852541715172681,
+          "balanced_accuracy": 0.7259604190919674
         },
         "M5+": {
           "positive_cells": 6,
@@ -110,8 +110,8 @@
     {
       "issue": "2026-10-26",
       "horizon": "1d",
-      "nll": 62.04048664395875,
-      "event_count": 19,
+      "nll": 62.461225155794445,
+      "event_count": 20,
       "prepublication_events": 0,
       "cells_with_events": 15,
       "thresholds": {
@@ -164,6 +164,67 @@
           "precision": 0.0,
           "recall": null,
           "specificity": 0.9996141975308642,
+          "balanced_accuracy": null
+        }
+      }
+    },
+    {
+      "issue": "2026-10-27",
+      "horizon": "1d",
+      "nll": 69.11394678354576,
+      "event_count": 20,
+      "prepublication_events": 0,
+      "cells_with_events": 16,
+      "thresholds": {
+        "M4.5+": {
+          "positive_cells": 16,
+          "top5_hits": 15,
+          "top5_recall": 0.9375,
+          "brier": 0.004661925889859699,
+          "binary_logloss": 0.017684731557582184,
+          "flagged_cells": 47,
+          "true_positive": 11,
+          "false_positive": 36,
+          "true_negative": 2540,
+          "false_negative": 5,
+          "accuracy": 0.9841820987654321,
+          "precision": 0.23404255319148937,
+          "recall": 0.6875,
+          "specificity": 0.9860248447204969,
+          "balanced_accuracy": 0.8367624223602484
+        },
+        "M5+": {
+          "positive_cells": 7,
+          "top5_hits": 7,
+          "top5_recall": 1.0,
+          "brier": 0.0021229385635681986,
+          "binary_logloss": 0.008613805350332251,
+          "flagged_cells": 5,
+          "true_positive": 2,
+          "false_positive": 3,
+          "true_negative": 2582,
+          "false_negative": 5,
+          "accuracy": 0.9969135802469136,
+          "precision": 0.4,
+          "recall": 0.2857142857142857,
+          "specificity": 0.9988394584139265,
+          "balanced_accuracy": 0.6422768720641061
+        },
+        "M6+": {
+          "positive_cells": 0,
+          "top5_hits": 0,
+          "top5_recall": null,
+          "brier": 3.3783955801766375e-06,
+          "binary_logloss": 0.0001713034329399246,
+          "flagged_cells": 0,
+          "true_positive": 0,
+          "false_positive": 0,
+          "true_negative": 2592,
+          "false_negative": 0,
+          "accuracy": 1.0,
+          "precision": null,
+          "recall": null,
+          "specificity": 1.0,
           "balanced_accuracy": null
         }
       }
