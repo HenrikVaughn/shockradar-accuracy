@@ -1,45 +1,45 @@
 {
-  "updated_utc": "2026-10-29T05:52:14.181836+00:00",
-  "latest_forecast": "2026-10-29",
-  "completed_windows": 3,
-  "catalog_sha256": "1ca30bf5179aad82957462f7580b29cf782d0259a79dd55e2177f0bffaddff02",
+  "updated_utc": "2026-10-30T01:41:19.719563+00:00",
+  "latest_forecast": "2026-10-30",
+  "completed_windows": 4,
+  "catalog_sha256": "63e57310f9a0688aa9dbce2bb49662cb0c1cd76549b977bcecc73f986a5f095a",
   "cumulative": {
     "1d": {
-      "issues": 3,
-      "nll_per_issue": 74.62215667387535,
+      "issues": 4,
+      "nll_per_issue": 79.02606934899481,
       "thresholds": {
         "M4.5+": {
-          "positive_cells": 46,
-          "top5_hits": 40,
-          "top5_recall": 0.8695652173913043,
-          "brier": 0.004705155317332461,
-          "accuracy": 0.9835390946502057,
-          "precision": 0.2028985507246377,
-          "recall": 0.6086956521739131,
-          "specificity": 0.9857697283311773,
-          "balanced_accuracy": 0.7972326902525452
+          "positive_cells": 59,
+          "top5_hits": 52,
+          "top5_recall": 0.8813559322033898,
+          "brier": 0.004424628457353658,
+          "accuracy": 0.9836998456790124,
+          "precision": 0.20108695652173914,
+          "recall": 0.6271186440677966,
+          "specificity": 0.9857406149966049,
+          "balanced_accuracy": 0.8064296295322008
         },
         "M5+": {
-          "positive_cells": 16,
-          "top5_hits": 16,
+          "positive_cells": 23,
+          "top5_hits": 23,
           "top5_recall": 1.0,
-          "brier": 0.0015873186193893177,
-          "accuracy": 0.9965277777777778,
-          "precision": 0.21052631578947367,
-          "recall": 0.25,
-          "specificity": 0.9980670103092784,
-          "balanced_accuracy": 0.6240335051546392
+          "brier": 0.0017111315255037693,
+          "accuracy": 0.9969135802469136,
+          "precision": 0.32,
+          "recall": 0.34782608695652173,
+          "specificity": 0.9983566940550991,
+          "balanced_accuracy": 0.6730913905058105
         },
         "M6+": {
-          "positive_cells": 2,
-          "top5_hits": 2,
+          "positive_cells": 3,
+          "top5_hits": 3,
           "top5_recall": 1.0,
-          "brier": 0.00020754452565826566,
-          "accuracy": 0.9997427983539094,
+          "brier": 0.0002414772551725335,
+          "accuracy": 0.9997106481481481,
           "precision": 0.5,
-          "recall": 0.5,
-          "specificity": 0.9998713660921019,
-          "balanced_accuracy": 0.749935683046051
+          "recall": 0.3333333333333333,
+          "specificity": 0.9999035214664737,
+          "balanced_accuracy": 0.6666184273999035
         }
       }
     },
@@ -110,8 +110,8 @@
     {
       "issue": "2026-10-26",
       "horizon": "1d",
-      "nll": 62.461225155794445,
-      "event_count": 20,
+      "nll": 65.68250388266415,
+      "event_count": 21,
       "prepublication_events": 0,
       "cells_with_events": 15,
       "thresholds": {
@@ -226,6 +226,67 @@
           "recall": null,
           "specificity": 1.0,
           "balanced_accuracy": null
+        }
+      }
+    },
+    {
+      "issue": "2026-10-28",
+      "horizon": "1d",
+      "nll": 89.01652864748343,
+      "event_count": 26,
+      "prepublication_events": 0,
+      "cells_with_events": 13,
+      "thresholds": {
+        "M4.5+": {
+          "positive_cells": 13,
+          "top5_hits": 12,
+          "top5_recall": 0.9230769230769231,
+          "brier": 0.003583047877417249,
+          "binary_logloss": 0.015072919501814077,
+          "flagged_cells": 46,
+          "true_positive": 9,
+          "false_positive": 37,
+          "true_negative": 2542,
+          "false_negative": 4,
+          "accuracy": 0.9841820987654321,
+          "precision": 0.1956521739130435,
+          "recall": 0.6923076923076923,
+          "specificity": 0.9856533540131834,
+          "balanced_accuracy": 0.8389805231604379
+        },
+        "M5+": {
+          "positive_cells": 7,
+          "top5_hits": 7,
+          "top5_recall": 1.0,
+          "brier": 0.002082570243847124,
+          "binary_logloss": 0.008428479320273742,
+          "flagged_cells": 6,
+          "true_positive": 4,
+          "false_positive": 2,
+          "true_negative": 2583,
+          "false_negative": 3,
+          "accuracy": 0.998070987654321,
+          "precision": 0.6666666666666666,
+          "recall": 0.5714285714285714,
+          "specificity": 0.9992263056092844,
+          "balanced_accuracy": 0.785327438518928
+        },
+        "M6+": {
+          "positive_cells": 1,
+          "top5_hits": 1,
+          "top5_recall": 1.0,
+          "brier": 0.000343275443715337,
+          "binary_logloss": 0.0012387341488014438,
+          "flagged_cells": 0,
+          "true_positive": 0,
+          "false_positive": 0,
+          "true_negative": 2591,
+          "false_negative": 1,
+          "accuracy": 0.9996141975308642,
+          "precision": null,
+          "recall": 0.0,
+          "specificity": 1.0,
+          "balanced_accuracy": 0.5
         }
       }
     }
