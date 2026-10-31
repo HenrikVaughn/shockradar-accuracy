@@ -6,7 +6,7 @@
 
 <!-- SHOCKRADAR_ACCURACY_START -->
 ## Live forecast accuracy (automatically updated)
-**Latest generated forecast:** 2026-10-31 at 00:00 UTC.  **Catalog checked:** 2026-10-31 00:25 UTC.
+**Latest generated forecast:** 2026-10-31 at 00:00 UTC.  **Catalog checked:** 2026-10-31 05:48 UTC.
 
 **Only finished windows are scored.** Each forecast is archived unchanged before evaluation; scores use the current USGS M4.5+ catalog after an extra 24-hour reporting buffer.
 
