@@ -1,49 +1,87 @@
 {
-  "updated_utc": "2026-11-01T02:44:22.683635+00:00",
-  "latest_forecast": "2026-11-01",
-  "completed_windows": 6,
-  "catalog_sha256": "d4dac29ea180388fd62c4124abd3479b0b4e857b29f7b7764ba3250744bcf879",
+  "updated_utc": "2026-11-02T02:52:59.266406+00:00",
+  "latest_forecast": "2026-11-02",
+  "completed_windows": 8,
+  "catalog_sha256": "fc8a1b495a10c0ac564816864c4b063bc54aedfa2385f9b672670bc2958ab51e",
   "cumulative": {
     "1d": {
-      "issues": 6,
-      "nll_per_issue": 79.70464850247677,
+      "issues": 7,
+      "nll_per_issue": 77.07008473308663,
       "thresholds": {
         "M4.5+": {
-          "positive_cells": 86,
-          "top5_hits": 72,
-          "top5_recall": 0.8372093023255814,
-          "brier": 0.004640650092199216,
-          "accuracy": 0.9830246913580247,
-          "precision": 0.17985611510791366,
-          "recall": 0.5813953488372093,
-          "specificity": 0.9852579852579852,
-          "balanced_accuracy": 0.7833266670475973
+          "positive_cells": 94,
+          "top5_hits": 79,
+          "top5_recall": 0.8404255319148937,
+          "brier": 0.0044614638376218214,
+          "accuracy": 0.9828042328042328,
+          "precision": 0.1656441717791411,
+          "recall": 0.574468085106383,
+          "specificity": 0.9849307479224376,
+          "balanced_accuracy": 0.7796994165144103
         },
         "M5+": {
-          "positive_cells": 34,
-          "top5_hits": 31,
-          "top5_recall": 0.9117647058823529,
-          "brier": 0.0018714506145828822,
-          "accuracy": 0.9965277777777778,
-          "precision": 0.23684210526315788,
-          "recall": 0.2647058823529412,
-          "specificity": 0.9981312024745457,
-          "balanced_accuracy": 0.6314185424137434
+          "positive_cells": 38,
+          "top5_hits": 35,
+          "top5_recall": 0.9210526315789473,
+          "brier": 0.0017975972377878974,
+          "accuracy": 0.9965828924162258,
+          "precision": 0.22727272727272727,
+          "recall": 0.2631578947368421,
+          "specificity": 0.9981221694465923,
+          "balanced_accuracy": 0.6306400320917172
+        },
+        "M6+": {
+          "positive_cells": 6,
+          "top5_hits": 5,
+          "top5_recall": 0.8333333333333334,
+          "brier": 0.0003027547695863981,
+          "accuracy": 0.9996693121693122,
+          "precision": 0.5,
+          "recall": 0.16666666666666666,
+          "specificity": 0.9999448671297828,
+          "balanced_accuracy": 0.5833057668982248
+        }
+      }
+    },
+    "7d": {
+      "issues": 1,
+      "nll_per_issue": 309.839050592332,
+      "thresholds": {
+        "M4.5+": {
+          "positive_cells": 62,
+          "top5_hits": 46,
+          "top5_recall": 0.7419354838709677,
+          "brier": 0.01695530257242431,
+          "accuracy": 0.9448302469135802,
+          "precision": 0.28342245989304815,
+          "recall": 0.8548387096774194,
+          "specificity": 0.9470355731225296,
+          "balanced_accuracy": 0.9009371413999745
+        },
+        "M5+": {
+          "positive_cells": 29,
+          "top5_hits": 25,
+          "top5_recall": 0.8620689655172413,
+          "brier": 0.008114610884679385,
+          "accuracy": 0.9737654320987654,
+          "precision": 0.2328767123287671,
+          "recall": 0.5862068965517241,
+          "specificity": 0.9781506047600468,
+          "balanced_accuracy": 0.7821787506558855
         },
         "M6+": {
           "positive_cells": 5,
           "top5_hits": 4,
           "top5_recall": 0.8,
-          "brier": 0.0002889061210117899,
-          "accuracy": 0.9996784979423868,
-          "precision": 0.5,
+          "brier": 0.0015466149417266897,
+          "accuracy": 0.9984567901234568,
+          "precision": 1.0,
           "recall": 0.2,
-          "specificity": 0.9999356789091143,
-          "balanced_accuracy": 0.5999678394545571
+          "specificity": 1.0,
+          "balanced_accuracy": 0.6
         }
       }
-    },
-    "7d": null
+    }
   },
   "daily": [
     {
@@ -104,6 +142,67 @@
           "recall": 0.5,
           "specificity": 1.0,
           "balanced_accuracy": 0.75
+        }
+      }
+    },
+    {
+      "issue": "2026-10-25",
+      "horizon": "7d",
+      "nll": 309.839050592332,
+      "event_count": 145,
+      "prepublication_events": 1,
+      "cells_with_events": 62,
+      "thresholds": {
+        "M4.5+": {
+          "positive_cells": 62,
+          "top5_hits": 46,
+          "top5_recall": 0.7419354838709677,
+          "brier": 0.01695530257242431,
+          "binary_logloss": 0.05968173558112482,
+          "flagged_cells": 187,
+          "true_positive": 53,
+          "false_positive": 134,
+          "true_negative": 2396,
+          "false_negative": 9,
+          "accuracy": 0.9448302469135802,
+          "precision": 0.28342245989304815,
+          "recall": 0.8548387096774194,
+          "specificity": 0.9470355731225296,
+          "balanced_accuracy": 0.9009371413999745
+        },
+        "M5+": {
+          "positive_cells": 29,
+          "top5_hits": 25,
+          "top5_recall": 0.8620689655172413,
+          "brier": 0.008114610884679385,
+          "binary_logloss": 0.029598955525649274,
+          "flagged_cells": 73,
+          "true_positive": 17,
+          "false_positive": 56,
+          "true_negative": 2507,
+          "false_negative": 12,
+          "accuracy": 0.9737654320987654,
+          "precision": 0.2328767123287671,
+          "recall": 0.5862068965517241,
+          "specificity": 0.9781506047600468,
+          "balanced_accuracy": 0.7821787506558855
+        },
+        "M6+": {
+          "positive_cells": 5,
+          "top5_hits": 4,
+          "top5_recall": 0.8,
+          "brier": 0.0015466149417266897,
+          "binary_logloss": 0.008165260575966856,
+          "flagged_cells": 1,
+          "true_positive": 1,
+          "false_positive": 0,
+          "true_negative": 2587,
+          "false_negative": 4,
+          "accuracy": 0.9984567901234568,
+          "precision": 1.0,
+          "recall": 0.2,
+          "specificity": 1.0,
+          "balanced_accuracy": 0.6
         }
       }
     },
@@ -354,8 +453,8 @@
     {
       "issue": "2026-10-30",
       "horizon": "1d",
-      "nll": 56.126927936558005,
-      "event_count": 12,
+      "nll": 56.58990638211942,
+      "event_count": 13,
       "prepublication_events": 0,
       "cells_with_events": 10,
       "thresholds": {
@@ -409,6 +508,67 @@
           "recall": null,
           "specificity": 1.0,
           "balanced_accuracy": null
+        }
+      }
+    },
+    {
+      "issue": "2026-10-31",
+      "horizon": "1d",
+      "nll": 60.79972367118429,
+      "event_count": 15,
+      "prepublication_events": 0,
+      "cells_with_events": 8,
+      "thresholds": {
+        "M4.5+": {
+          "positive_cells": 8,
+          "top5_hits": 7,
+          "top5_recall": 0.875,
+          "brier": 0.0033863463101574585,
+          "binary_logloss": 0.015017535619165271,
+          "flagged_cells": 48,
+          "true_positive": 4,
+          "false_positive": 44,
+          "true_negative": 2540,
+          "false_negative": 4,
+          "accuracy": 0.9814814814814815,
+          "precision": 0.08333333333333333,
+          "recall": 0.5,
+          "specificity": 0.9829721362229102,
+          "balanced_accuracy": 0.7414860681114551
+        },
+        "M5+": {
+          "positive_cells": 4,
+          "top5_hits": 4,
+          "top5_recall": 1.0,
+          "brier": 0.0013544769770179885,
+          "binary_logloss": 0.0070323641596060395,
+          "flagged_cells": 6,
+          "true_positive": 1,
+          "false_positive": 5,
+          "true_negative": 2583,
+          "false_negative": 3,
+          "accuracy": 0.9969135802469136,
+          "precision": 0.16666666666666666,
+          "recall": 0.25,
+          "specificity": 0.9980680061823802,
+          "balanced_accuracy": 0.6240340030911902
+        },
+        "M6+": {
+          "positive_cells": 1,
+          "top5_hits": 1,
+          "top5_recall": 1.0,
+          "brier": 0.00038584666103404734,
+          "binary_logloss": 0.0028606399510659993,
+          "flagged_cells": 0,
+          "true_positive": 0,
+          "false_positive": 0,
+          "true_negative": 2591,
+          "false_negative": 1,
+          "accuracy": 0.9996141975308642,
+          "precision": null,
+          "recall": 0.0,
+          "specificity": 1.0,
+          "balanced_accuracy": 0.5
         }
       }
     }
