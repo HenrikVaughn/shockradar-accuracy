@@ -6,25 +6,25 @@
 
 <!-- SHOCKRADAR_ACCURACY_START -->
 ## Live forecast accuracy (automatically updated)
-**Latest generated forecast:** 2026-11-15 at 00:00 UTC.  **Catalog checked:** 2026-11-15 03:18 UTC.
+**Latest generated forecast:** 2026-11-16 at 00:00 UTC.  **Catalog checked:** 2026-11-16 03:20 UTC.
 
 **Only finished windows are scored.** Each forecast is archived unchanged before evaluation; scores use the current USGS M4.5+ catalog after an extra 24-hour reporting buffer.
 
 | Horizon | Scored issues | Poisson NLL / issue ↓ | Top 5% M4.5+ hit rate | Top 5% M5+ hit rate | Top 5% M6+ hit rate |
 | :-- | --: | --: | --: | --: | --: |
-| 1 day | 20 | 72.79 | 81.6% | 85.2% | 90.0% |
-| 7 days | 14 | 280.71 | 75.1% | 82.5% | 88.9% |
+| 1 day | 21 | 73.40 | 80.3% | 83.5% | 90.0% |
+| 7 days | 15 | 284.22 | 73.8% | 81.5% | 89.1% |
 
 **Probability-based accuracy at a fixed 10% threshold** (cumulative across all scored cells):
 
 | Horizon | Magnitude | Accuracy* | Recall | Precision | Balanced accuracy | Brier ↓ |
 | :-- | :-- | --: | --: | --: | --: | --: |
-| 1d | M4.5+ | 98.3% | 53.3% | 15.9% | 75.9% | 0.00468 |
-| 1d | M5+ | 99.7% | 21.6% | 16.7% | 60.7% | 0.00156 |
-| 1d | M6+ | 100.0% | 10.0% | 50.0% | 55.0% | 0.00018 |
-| 7d | M4.5+ | 94.5% | 84.8% | 27.8% | 89.7% | 0.01587 |
-| 7d | M5+ | 97.3% | 57.7% | 18.7% | 77.7% | 0.00735 |
-| 7d | M6+ | 99.9% | 28.9% | 72.2% | 64.4% | 0.00106 |
+| 1d | M4.5+ | 98.3% | 53.1% | 16.1% | 75.8% | 0.00474 |
+| 1d | M5+ | 99.7% | 20.9% | 15.8% | 60.3% | 0.00154 |
+| 1d | M6+ | 100.0% | 10.0% | 50.0% | 55.0% | 0.00017 |
+| 7d | M4.5+ | 94.5% | 83.8% | 28.5% | 89.3% | 0.01616 |
+| 7d | M5+ | 97.3% | 57.3% | 18.6% | 77.5% | 0.00744 |
+| 7d | M6+ | 99.9% | 30.4% | 73.7% | 65.2% | 0.00101 |
 
 Event counts before publication are shown in DAILY.md. Publication can lag the nominal 00:00 issue cutoff. This is not an earthquake warning service.
 
